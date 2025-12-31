@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>포켓몬 타입 상성 계산기</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>포켓몬 타입 상성 계산기</h2>
+
+    <div class="card">
+      <div class="input-group">
+        <label>
+          포켓몬:
+          <select id="megaSelect">
+            <option value="일반">일반</option>
+            <option value="그림자">그림자</option>
+            <option value="메가">메가(원시)</option>
+          </select>
+        </label>
+        <input type="text" id="pokemonInput" placeholder="포켓몬 이름 입력" list="pokemonList">
+
+<datalist id="pokemonList">
+  <!-- JS에서 자동으로 채워집니다 -->
+</datalist>
+
+      </div>
+
+      <div class="input-group">
+        <label>날씨:
+          <select id="weatherSelect">
+            <option value="sunny">낮</option>
+            <option value="sunny">밤</option>
+            <option value="partlyCloudy">약간구름</option>
+            <option value="cloudy">흐림</option>
+            <option value="rainy">비</option>
+            <option value="snow">눈</option>
+            <option value="windy">강풍</option>
+            <option value="fog">안개</option>
+          </select>
+        </label>
+      </div>
+
+      <button onclick="calculate()">계산</button>
+    </div>
+
+    <div class="card" id="result"></div>
+
+    <!-- ===== 추천 포켓몬 표 + 팝업 (추가) ===== -->
+    <div class="card" id="recommendationWrapper">
+
+  <!-- 탭 버튼 -->
+  <div class="recommend-tabs">
+      <button class="tab active" data-tab="withMega">메가 포함</button>
+      <button class="tab" data-tab="noMega">메가 제외</button>
+    </div>
+
+    <!-- 메가 포함 -->
+    <div id="recommendationTable-withMega" class="recommend-table"></div>
+
+    <!-- 메가 제외 -->
+    <div id="recommendationTable-noMega" class="recommend-table hidden"></div>
+
+  </div>
+
+    <div id="pokemonDetailPopup" class="hidden" role="dialog" aria-hidden="true"></div>
+  </div>
+
+  <!-- ES Module 방식 -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
