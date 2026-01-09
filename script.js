@@ -545,7 +545,7 @@ if (
   dynamaxBgLoaded &&
   (pokemonObj.Form === "거다이맥스" || pokemonObj.Dynamax === "O")
 ) {
-  const cloudHeight = canvas.height * 0.3; // 상단 35%만
+  const cloudHeight = canvas.height * 0.1; // 상단 35%만
   ctx.drawImage(
     dynamaxBgImg,
     0,
@@ -1447,3 +1447,4 @@ document.addEventListener("click", (e) => {
     .classList.toggle("hidden", tab !== "noMega");
 
 });
+
