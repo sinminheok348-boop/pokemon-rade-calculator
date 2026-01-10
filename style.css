@@ -363,3 +363,13 @@ canvas.type-icon {
 .tab-page.hidden {
   display: none;
 }
+
+/* =========================
+   🔹 포켓몬 이미지 점선 박스 투명화
+   (레이드 / 맥스배틀 공통)
+   ========================= */
+#spriteContainer,
+#maxSpriteContainer {
+  border: none !important;
+  background: transparent !important;
+}
