@@ -26272,7 +26272,7 @@ const pokemonStats = [
     ],
     "Sprite_Col": 17,
     "Sprite_Row": 15,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -36199,7 +36199,7 @@ const pokemonStats = [
     "Elite_Charged_Moves": [],
     "Sprite_Col": 10,
     "Sprite_Row": 22,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -36253,7 +36253,7 @@ const pokemonStats = [
     "Elite_Charged_Moves": [],
     "Sprite_Col": 11,
     "Sprite_Row": 22,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -39123,7 +39123,7 @@ const pokemonStats = [
     "Elite_Charged_Moves": [],
     "Sprite_Col": 12,
     "Sprite_Row": 24,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -39150,7 +39150,7 @@ const pokemonStats = [
     "Elite_Charged_Moves": [],
     "Sprite_Col": 13,
     "Sprite_Row": 24,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -39181,7 +39181,7 @@ const pokemonStats = [
     ],
     "Sprite_Col": 14,
     "Sprite_Row": 24,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
