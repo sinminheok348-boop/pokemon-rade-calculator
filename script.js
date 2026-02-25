@@ -1,5 +1,3 @@
-오케이!! 그렇다면 해당 내용을 다른 코드의 수정은 최소화하면서 이 채팅에서 했던 모든 이야기를 종합해서 해당 부분만 바꿔줘! 이때 마찬가지로 정확히 어디를 어떻게 수정해야할지 전후비교로 구체적이고 명확히 알려줘! 아래는 내 현재 script.js 전체 코드야!
-
 const SHADOW_BG_URL = "./shadow_bg.png";
 let shadowBgImg = new Image();
 shadowBgImg.src = SHADOW_BG_URL;
@@ -1903,3 +1901,4 @@ document.addEventListener("click", (e) => {
     .classList.toggle("hidden", tab !== "noMega");
 
 });
+
