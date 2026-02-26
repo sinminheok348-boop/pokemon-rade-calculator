@@ -879,8 +879,8 @@ const maxDatalist = document.getElementById("maxPokemonList");
 if (maxDatalist) {
 
   const bannedSearch = [
-    "자시안",
-    "자마젠타",
+    "자시안(검왕폼)",
+    "자마젠타(방패왕폼)",
     "무한다이노"
   ];
 
@@ -1946,4 +1946,5 @@ document.addEventListener("click", (e) => {
     .classList.toggle("hidden", tab !== "noMega");
 
 });
+
 
