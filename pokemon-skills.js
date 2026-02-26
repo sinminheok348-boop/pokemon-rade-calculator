@@ -2793,7 +2793,7 @@ const pokemonSkills = [
   },
   {
     "Slot": "거다이맥스",
-    "Skill_Name": "거수참",
+    "Skill_Name": "(맥스)거수참",
     "Skill_Type": "강철",
     "PWR": 450,
     "ENG": 100,
@@ -2801,7 +2801,7 @@ const pokemonSkills = [
   },
   {
     "Slot": "거다이맥스",
-    "Skill_Name": "거수탄",
+    "Skill_Name": "(맥스)거수탄",
     "Skill_Type": "강철",
     "PWR": 450,
     "ENG": 100,
