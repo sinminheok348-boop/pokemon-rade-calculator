@@ -43792,7 +43792,7 @@ const pokemonStats = [
     "Sprite_Col": 7,
     "Sprite_Row": 28,
     "Dynamax": "O",
-    "Gigantamax_Move": "['거수참']"
+    "Gigantamax_Move": "['(맥스)거수참']"
   },
   {
     "Pokemon_ID": 889,
@@ -43849,7 +43849,7 @@ const pokemonStats = [
     "Sprite_Col": 9,
     "Sprite_Row": 28,
     "Dynamax": "O",
-    "Gigantamax_Move": "['거수탄']"
+    "Gigantamax_Move": "['(맥스)거수탄']"
   },
   {
     "Pokemon_ID": 890,
