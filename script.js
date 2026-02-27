@@ -1445,8 +1445,18 @@ dynamaxAvailable.forEach(p => {
   let maxDamage = 0;
   let formLabel = "다이맥스";
 
-  // 🔹 Gigantamax_Move 존재 여부로 판단
-if (p.Form === "거다이맥스") {
+// 🔹 예외적으로 거다이맥스 기술만 사용하는 포켓몬
+const forceGigantamaxList = [
+  "자시안(검왕폼)",
+  "자마젠타(방패왕폼)",
+  "무한다이노"
+];
+
+// 🔹 Gigantamax_Move 존재 여부 + 예외 포켓몬 포함
+if (
+  p.Form === "거다이맥스" ||
+  forceGigantamaxList.includes(p.Pokemon_Name)
+) {
 
   let gigaMoveName = null;
 
