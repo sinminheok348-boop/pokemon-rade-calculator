@@ -670,8 +670,8 @@ function buildRecommendationList(selectedDefender, weather, megaSelectValue) {
       }
     }
 
-    // 기본값 처리: 만약 기술 목록이 비어있으면 skip
-    if (!bestPair.normal || !bestPair.special) continue;
+    // 🔥 최소 1개 조합이라도 계산됐으면 포함
+if (bestDPS <= 0) continue;
 
     list.push({
       id: p.Pokemon_Name + (p.Form ? ("|" + p.Form) : ""),
