@@ -34552,6 +34552,33 @@ const pokemonStats = [
     "Gigantamax_Move": null
   },
   {
+    "Pokemon_ID": 642-S,
+    "Form": "그림자",
+    "Pokemon_Name": "볼트로스(화신폼)",
+    "Pokemon_Type1": "전기",
+    "Pokemon_Type2": "비행",
+    "Max_CP": 3782,
+    "ATK": 266.0,
+    "DEF": 164.0,
+    "HP": 188,
+    "Fast_Moves": [
+      "놀래키기",
+      "전기쇼크"
+    ],
+    "Elite_Fast_Moves": [],
+    "Charged_Moves": [
+      "깨물어부수기",
+      "번개",
+      "깨트리기",
+      "번개펀치"
+    ],
+    "Elite_Charged_Moves": [],
+    "Sprite_Col": 43,
+    "Sprite_Row": 19,
+    "Dynamax": null,
+    "Gigantamax_Move": null
+  },
+  {
     "Pokemon_ID": 642,
     "Form": "일반",
     "Pokemon_Name": "볼트로스(영물폼)",
