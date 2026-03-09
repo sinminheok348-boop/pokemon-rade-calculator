@@ -740,16 +740,16 @@ const pokemonSkills = [
     "Skill_Name": "오라휠(전기)",
     "Skill_Type": "전기",
     "PWR": 100,
-    "ENG": 45,
-    "Duration": 2.7
+    "ENG": 50,
+    "Duration": 2.5
   },
   {
     "Slot": "스페셜",
     "Skill_Name": "오라휠(악)",
     "Skill_Type": "악",
     "PWR": 100,
-    "ENG": 45,
-    "Duration": 2.7
+    "ENG": 50,
+    "Duration": 2.5
   },
   {
     "Slot": "스페셜",
@@ -915,9 +915,9 @@ const pokemonSkills = [
     "Slot": "스페셜",
     "Skill_Name": "스케일노이즈",
     "Skill_Type": "드래곤",
-    "PWR": 120,
+    "PWR": 130,
     "ENG": 100,
-    "Duration": 3.3
+    "Duration": 3.5
   },
   {
     "Slot": "스페셜",
@@ -971,9 +971,9 @@ const pokemonSkills = [
     "Slot": "스페셜",
     "Skill_Name": "묵사발",
     "Skill_Type": "노말",
-    "PWR": 210,
+    "PWR": 230,
     "ENG": 100,
-    "Duration": 1.8
+    "Duration": 2.0
   },
   {
     "Slot": "스페셜",
@@ -1067,9 +1067,9 @@ const pokemonSkills = [
     "Slot": "스페셜",
     "Skill_Name": "드래곤에너지",
     "Skill_Type": "드래곤",
-    "PWR": 155,
+    "PWR": 165,
     "ENG": 50,
-    "Duration": 3.3
+    "Duration": 3.5
   },
   {
     "Slot": "스페셜",
@@ -1235,9 +1235,9 @@ const pokemonSkills = [
     "Slot": "스페셜",
     "Skill_Name": "트릭플라워",
     "Skill_Type": "풀",
-    "PWR": 75,
+    "PWR": 85,
     "ENG": 33,
-    "Duration": 2.7
+    "Duration": 3.0
   },
   {
     "Slot": "스페셜",
@@ -2315,9 +2315,9 @@ const pokemonSkills = [
     "Slot": "스페셜",
     "Skill_Name": "썬더프리즌",
     "Skill_Type": "전기",
-    "PWR": 220,
+    "PWR": 230,
     "ENG": 100,
-    "Duration": 3.3
+    "Duration": 3.0
   },
   {
     "Slot": "스페셜",
