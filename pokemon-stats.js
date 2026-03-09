@@ -1703,7 +1703,7 @@ const pokemonStats = [
     ],
     "Sprite_Col": 37,
     "Sprite_Row": 1,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
@@ -1734,7 +1734,7 @@ const pokemonStats = [
     ],
     "Sprite_Col": 39,
     "Sprite_Row": 1,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": "['거다이만뢰']"
   },
   {
@@ -1767,7 +1767,7 @@ const pokemonStats = [
     ],
     "Sprite_Col": 8,
     "Sprite_Row": 2,
-    "Dynamax": null,
+    "Dynamax": "O",
     "Gigantamax_Move": null
   },
   {
