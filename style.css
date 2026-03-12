@@ -170,7 +170,7 @@ ul li {
   padding: 6px;
   border: 1px solid #ddd;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 #recommendationTable td canvas {
@@ -402,4 +402,5 @@ canvas.type-icon {
 
 /* 🔹 이 줄 삭제 */
 /* .max-attacker-table { min-width: 700px; } */
+
 
